@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${browser}  edge    options=add_argument("--headless")
+${browser}  headlessfirefox
 ${url}     https://tonihn.github.io/SwagLab/
 
 *** Test Cases ***
