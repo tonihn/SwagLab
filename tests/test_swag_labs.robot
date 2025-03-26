@@ -2,8 +2,8 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${browser}  edge
-${url}     file:///C:/Users/Antonia.Heine/PycharmProjects/SwagLabTest/docs/swag_labs.html
+${browser}  edge    options=add_argument("--headless")
+${url}     https://tonihn.github.io/SwagLab/
 
 *** Test Cases ***
 LoginTest
