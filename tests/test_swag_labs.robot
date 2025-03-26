@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${browser}  edge
-${url}     file:///C:/Users/Antonia.Heine/Downloads/swag_labs%20(1).html
+${url}     file:///C:/Users/Antonia.Heine/PycharmProjects/SwagLabTest/docs/swag_labs.html
 
 *** Test Cases ***
 LoginTest
